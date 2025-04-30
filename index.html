@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Countries Where I Have Lived</title>
+    <style>
+    /*My CSS code */
+    h2{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: normal;
+    }
+    h3 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+    }
+
+    .flags{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .motivation{
+        background-color:bisque;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .ukraine {
+        background-color: blue;
+        position: relative;
+        width: 600px;
+        height: 300px;
+        margin-top: 20px; 
+    }
+    .ukraine > div{
+        background-color:yellow;
+        position: absolute;
+        bottom:0;
+        width: 100%;
+        height: 150px;
+    }
+    .poland{
+        background-color: white;
+        position:relative;
+        width:600px;
+        height:300px;
+        margin-top: 20px;
+    }
+    
+    .poland > div {
+        background-color: red;
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+    }
+    .canada {
+        background-color: #FF0000;
+        position: relative;
+        width: 600px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .canada > div {
+        background-color: white;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 150px;
+
+    }
+    .canada > div > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .canada > div > div> svg {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="motivation">
+        <h2>From My Roots to My Wings</h2>
+        <h3>Ukraine gave me roots, Poland gave me strength, Canada gives me space to fly.</h3>
+    <div class="flags">
+        <div class="ukraine">
+            <div></div>
+        </div>
+        <div class="poland">
+            <div></div>
+        </div>
+        <div class="canada">
+            <div >
+                <div >
+                    <svg width="800px" height="800px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet"><path fill="#FF0000" d="M36 20.917c0-.688-2.895-.5-3.125-1s3.208-4.584 2.708-5.5s-5.086 1.167-5.375.708c-.288-.458.292-3.5-.208-3.875s-5.25 4.916-5.917 4.292c-.666-.625 1.542-10.5 1.086-10.698c-.456-.198-3.419 1.365-3.793 1.282C21.002 6.042 18.682 0 18 0s-3.002 6.042-3.376 6.125c-.374.083-3.337-1.48-3.793-1.282c-.456.198 1.752 10.073 1.085 10.698C11.25 16.166 6.5 10.875 6 11.25s.08 3.417-.208 3.875c-.289.458-4.875-1.625-5.375-.708s2.939 5 2.708 5.5s-3.125.312-3.125 1s8.438 5.235 9 5.771c.562.535-2.914 2.802-2.417 3.229c.576.496 3.839-.83 10.417-.957V35a1 1 0 1 0 2 0v-6.04c6.577.127 9.841 1.453 10.417.957c.496-.428-2.979-2.694-2.417-3.229c.562-.536 9-5.084 9-5.771z"></path></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
